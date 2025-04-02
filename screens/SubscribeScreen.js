@@ -47,7 +47,7 @@ const SubscribeScreen = () => {
       <TextInput
         style={styles.input}
         keyboardType="email-address"
-        placeholder="First name"
+        placeholder="Type your email"
         require
         onChangeText={handleEmailChange}
         value={email}
